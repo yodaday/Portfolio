@@ -1,9 +1,17 @@
 import React from "react";
+import { FaJava, FaReact, FaGitAlt } from "react-icons/fa";
+import {
+  SiSpringboot,
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiMysql,
+} from "react-icons/si";
 import "./portfolio.css";
 
 function Portfolio() {
   return (
-    <div>
+    <div className="portfolio">
       <header className="header">
         <h1 className="title">Ayush Dangol</h1>
       </header>
@@ -23,26 +31,30 @@ function Portfolio() {
 
       <section className="skills">
         <h2>Skills</h2>
-        <ul>
-          <li>Java</li>
-          <li>Spring Boot</li>
-          <li>React</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>SQL</li>
-          <li>Git</li>
-        </ul>
-      </section>
-
-      <section className="contact">
-        <h2>Contact</h2>
-        <ul>
+        <ul className="skills-list">
           <li>
-            Email:<a href="mailto:meiayush@gmail.com">ayush</a>
+            <FaJava size={50} /> Java
           </li>
           <li>
-            Phone:<a href="tel">484848484</a>
+            <SiSpringboot size={50} /> Spring Boot
+          </li>
+          <li>
+            <FaReact size={50} /> React
+          </li>
+          <li>
+            <SiHtml5 size={50} /> HTML
+          </li>
+          <li>
+            <SiCss3 size={50} /> CSS
+          </li>
+          <li>
+            <SiJavascript size={50} /> JavaScript
+          </li>
+          <li>
+            <SiMysql size={50} /> MySQL
+          </li>
+          <li>
+            <FaGitAlt size={50} /> Git
           </li>
         </ul>
       </section>

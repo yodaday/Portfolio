@@ -1,13 +1,44 @@
-.title {
-  color: rgb(188, 60, 60);
+.portfolio {
+  margin: 20px;
 }
 
 .header {
-  background-color: rgb(60, 23, 23);
-}
-.footer {
-  background-color: rgb(30, 30, 30);
-  color: white;
-  padding: 10px;
   text-align: center;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.skills {
+  margin-top: 40px;
+}
+
+.skills h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.skills-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding-left: 0;
+}
+
+.skills-list li {
+  font-size: 1.2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills-list li svg {
+  margin-bottom: 10px;
 }

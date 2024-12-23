@@ -1,11 +1,18 @@
-/* navigation.css */
-
 .nav {
-  background-color: rgb(132, 30, 98);
-  padding: 10px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.nav-link {
   color: white;
-  font-family: Arial, sans-serif;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  background-color: #444;
+  border-radius: 4px;
 }
