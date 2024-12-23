@@ -1,0 +1,13 @@
+.title {
+  color: rgb(188, 60, 60);
+}
+
+.header {
+  background-color: rgb(60, 23, 23);
+}
+.footer {
+  background-color: rgb(30, 30, 30);
+  color: white;
+  padding: 10px;
+  text-align: center;
+}

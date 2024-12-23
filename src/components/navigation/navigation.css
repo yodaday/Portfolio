@@ -1,0 +1,11 @@
+/* navigation.css */
+
+.nav {
+  background-color: rgb(132, 30, 98);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
