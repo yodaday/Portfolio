@@ -25,7 +25,28 @@ function Portfolio() {
           photography and love to capture moments. I am looking forward to
           working on new projects and collaborating with new people. Feel free
           to contact me if you have any queries or want to collaborate on a
-          project. I am always open to new opportunities.
+          project. I am always open to new opportunities. <br />
+          <br />
+          Experience in complete Software Development Life Cycle (SDLC) starting
+          from requirement analysis, design, development, coding, testing,
+          debugging, and implementation. ♦ Good knowledge and experience on J2EE
+          technologies such as Java, JSP/Servlets, Struts 2.0, JPA, Hibernate,
+          EJB, JMS, Web Services, WSAD, RAD, MySQL, DB2, Postgres, Dojo, AJAX. ♦
+          Experience working with Agile Methodology. ♦ Good knowledge of
+          Database Connectivity (JDBC) for Databases like Oracle, SQL Server,
+          MySQL, MS Access. ♦ Exposure in Web/Application Servers such as Apache
+          Tomcat and IBM WebSphere. ♦ Knowledge on Microservices and Spring
+          Boot. ♦ Experience of handling/creating/monitoring Docker
+          images/builds on multiple PROD servers with Docker compose. ♦ Designed
+          and developed core business model and business rules within the
+          application using Java and J2EE technologies. ♦ Experience in using
+          Web Services with the help of WSDL to get the data with different
+          rentals. ♦ Solid experience in deploying JEE components on Apache
+          Tomcat, and WebSphere application servers. ♦ Pro`icient in developing
+          various open-source frameworks like Struts, Spring, JSF, and ORM
+          Technology like Hibernate. ♦ Expertise in continuous build and
+          deployment tools like Jenkins and release process. ♦ Strong
+          interpersonal and communication skills and self-motivated individuals.
         </p>
       </section>
 

@@ -1,0 +1,33 @@
+/* social_media.css */
+
+/* Container for the social media links */
+.social-media-container {
+  display: flex; /* Flexbox to align items horizontally */
+  gap: 20px; /* Add space between the links */
+  justify-content: center; /* Center the links horizontally */
+  align-items: center; /* Vertically center the links */
+  margin: 20px 0; /* Adds some margin at the top and bottom */
+}
+
+/* Style for each social media link */
+.social-link {
+  display: flex; /* Make each link a flex container */
+  align-items: center; /* Vertically align the icon and text */
+  color: #40c817; /* Set the text color to blue */
+  text-decoration: none; /* Remove the underline from the link */
+  font-size: 18px; /* Set the font size */
+  padding: 10px 20px; /* Add padding around the link */
+  border-radius: 8px; /* Rounded corners for the links */
+  transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+/* Hover effect for social media links */
+.social-link:hover {
+  background-color: #e0f7fa; /* Light background color on hover */
+}
+
+/* Style for the icon inside the link */
+.icon {
+  margin-right: 10px; /* Space between the icon and the text */
+  font-size: 22px; /* Increase the size of the icon */
+}
